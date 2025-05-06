@@ -3,13 +3,13 @@
         <div class="container mx-auto px-8">
             <div class="footer-content flex flex-col items-center gap-4">
                 <p class="text-[var(--text-secondary)] text-sm">
-                    © 2025 GymnaStream - Tous droits réservés
+                    © 2025 Coupe des Bains - Tous droits réservés
                 </p>
                 <div class="footer-links flex gap-2">
-                    <a href="#" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Accueil</a>
-                    <a href="#" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Programme</a>
-                    <a href="#" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Résultats</a>
-                    <a href="#" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Contact</a>
+                    <a href="https://agy.ch/cdb/" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Accueil</a>
+                    <a href="https://agy.ch/cdb/competition/" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Programme</a>
+                    <a href="https://agy.ch/cdb/resultats/" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Résultats</a>
+                    <a href="https://agy.ch/cdb/nous-contacter/" class="text-[var(--primary-light)] text-sm hover:text-[var(--primary)] transition-colors duration-200 hover:underline">Contact</a>
                 </div>
             </div>
         </div>
@@ -26,6 +26,12 @@
 .container {
     max-width: 1200px;
 }
+.footer-links {
+    display: flex;
+    gap: 1.5rem; /* Increase the gap to 1.5rem for more space */
+    margin-top: 0.5rem;
+}
+
 
 @media (min-width: 1024px) {
     .footer {
