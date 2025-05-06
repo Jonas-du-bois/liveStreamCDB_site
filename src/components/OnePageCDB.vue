@@ -121,13 +121,13 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .main-content {
-  padding: 2rem 0;
+  padding: 2rem;
   min-height: calc(100vh - 160px); /* Hauteur du header + footer */
 }
 
 @media (min-width: 1024px) {
   .main-content {
-    padding: 3rem 0;
+    padding: 2rem;
     padding-bottom: calc(3rem + 120px); /* Espace supplémentaire pour le footer fixe */
   }
 }
