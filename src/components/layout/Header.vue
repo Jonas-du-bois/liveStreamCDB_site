@@ -38,4 +38,8 @@ const props = defineProps({
     max-width: 1200px;
 }
 
+h1 {
+    padding: 1rem
+}
+
 </style>

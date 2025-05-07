@@ -42,14 +42,9 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import Header from './layout/Header.vue'
 import Footer from './layout/Footer.vue'
+import scheduleData from '../data/schedule.json'
 
-const schedule = [
-  { start: '08:00', end: '10:00', titles: ["Qualifications Femmes - Groupe A", "Qualifications Hommes - Groupe A", "Échauffement - Barres Asymétriques", "Échauffement - Sol"] },
-  { start: '10:15', end: '12:15', titles: ["Qualifications Femmes - Groupe B", "Qualifications Hommes - Groupe B", "Barres Parallèles - Finales", "Poutre - Qualifications"] },
-  { start: '13:30', end: '15:00', titles: ["Demi-Finales - Femmes", "Demi-Finales - Hommes", "Anneaux - Finales", "Saut - Qualifications"] },
-  { start: '16:00', end: '18:00', titles: ["Finales - Concours Général Femmes", "Finales - Concours Général Hommes", "Sol - Finales", "Barres Asymétriques - Finales"] },
-  { start: '18:30', end: '20:30', titles: ["Cérémonie de Remise des Médailles - Femmes", "Cérémonie de Remise des Médailles - Hommes", "Exhibition - Champions", "Poutre - Finales"] }
-];
+const schedule = scheduleData.schedule;
 
 const streamDescriptions = [
   "Salle des Isles - Compétition principale",
