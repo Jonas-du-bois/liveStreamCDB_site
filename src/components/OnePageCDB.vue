@@ -47,10 +47,10 @@ import scheduleData from '../data/schedule.json'
 const schedule = scheduleData.schedule;
 
 const streamDescriptions = [
-  "Salle des Isles - Compétition principale",
-  "Salle des Isles - Plateau secondaire",
-  "Salle des Isles - Zone d'entraînement",
-  "Salle de Léon Michaud - Compétition junior"
+  "Salle des Isles - 1",
+  "Salle des Isles - 2",
+  "Salle des Isles - 3",
+  "Salle de Léon Michaud"
 ];
 
 const streams = ref([
@@ -197,7 +197,7 @@ onBeforeUnmount(() => {
 
 @keyframes pulse {
   0% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(1.1); }
+  50% { opacity: 0.3; transform: scale(1.1); }
   100% { opacity: 1; transform: scale(1); }
 }
 

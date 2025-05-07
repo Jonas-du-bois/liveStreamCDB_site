@@ -49,6 +49,16 @@
         "Exhibition - Champions",
         "Poutre - Finales"
       ]
+    },
+    {
+      "start": "22:00",
+      "end": "07:00",
+      "titles": [
+        "Streaming - Isles 1",
+        "Streaming - Isles 2",
+        "Streaming - Isles 3",
+        "Streaming - Léon Michaud"
+      ]
     }
   ]
 }
