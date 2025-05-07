@@ -19,22 +19,23 @@
 <style scoped>
 .footer {
     background-color: var(--surface);
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     border-top: 1px solid var(--border);
+    margin-top: auto;
 }
 
 .container {
     max-width: 1200px;
 }
+
 .footer-links {
     display: flex;
-    gap: 1.5rem; /* Increase the gap to 1.5rem for more space */
+    gap: 1.5rem;
 }
-
 
 @media (min-width: 1024px) {
     .footer {
-        position: fixed;
+        position: sticky;
         bottom: 0;
         left: 0;
         right: 0;
