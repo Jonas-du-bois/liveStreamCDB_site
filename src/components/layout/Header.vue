@@ -82,8 +82,8 @@ const props = defineProps({
 const streams = [
     { description: "Salle des Isles - 1" },
     { description: "Salle des Isles - 2" },
-    { description: "Salle des Isles - 3" },
-    { description: "Salle de Léon Michaud" }
+    { description: "Salle de Léon Michaud - 1" },
+    { description: "Salle de Léon Michaud - 2" }
 ]
 
 const isMenuOpen = ref(false)
