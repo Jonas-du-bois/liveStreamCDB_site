@@ -1,16 +1,10 @@
 <template>
     <header class="bg-[var(--surface)] shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-12 py-16">
-            <div class="header-content flex justify-between items-center py-12 px-4 sm:px-6"> 
-                <div class="logo flex items-center gap-2 p-6">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-12 py-4">
+            <div class="header-content flex justify-between items-center py-2 px-4 sm:px-6"> 
+                <div class="logo flex items-center gap-2">
                     <router-link to="/" class="flex items-center gap-2 no-underline">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-8 h-8 fill-[var(--primary-light)]">
-                            <path d="M9 10v8l7-4zm12-4h-4.18C16.4 3.39 14.38 2 12 2c-2.38 0-4.4 1.39-4.82 3H3v14h18V6zm-6 0c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2z"/>
-                        </svg>
-                        <h1 class="text-2xl font-bold logo-text">
-                            <span class="text-white">CDB</span>
-                            <span class="text-[var(--secondary)]">stream</span>
-                        </h1>
+                        <img src="../../assets/logo.png" alt="Logo" class="w-1 h-1" />
                     </router-link>
                 </div>
                 
@@ -98,6 +92,15 @@ const closeMenu = () => {
 </script>
 
 <style scoped>
+
+img {
+    padding: 1rem;
+    height: 80px;
+}
+div.burger-icon {
+    margin-right: 10px;
+}
+
 .header {
     background-color: var(--surface);
     padding: 2rem 0;
