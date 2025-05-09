@@ -85,8 +85,10 @@ onBeforeUnmount(() => {
 
 .stream-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem;
+  position: relative;
 }
 
 @media (min-width: 640px) {
@@ -96,6 +98,15 @@ onBeforeUnmount(() => {
 }
 
 @media (min-width: 1024px) {
+  .stream-grid:has(.stream-card:hover) .stream-card:not(:hover) {
+    filter: blur(3px);
+    transition: filter 0.3s ease;
+  }
+
+  .stream-card {
+    transition: filter 0.3s ease;
+  }
+  
   .stream-grid {
     grid-template-columns: repeat(2, 1fr);
   }

@@ -53,6 +53,18 @@ const props = defineProps({
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
+@media (min-width: 1024px) {
+  .stream-card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .stream-info, .video-container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
 .video-container {
   position: relative;
   width: 100%;
