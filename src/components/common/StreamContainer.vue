@@ -46,6 +46,9 @@ const props = defineProps({
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid var(--border);
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .stream-card:hover {
@@ -62,6 +65,16 @@ const props = defineProps({
   .stream-info, .video-container {
     position: relative;
     z-index: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .stream-card {
+    max-width: 95%;
+  }
+  
+  .stream-info {
+    padding: 1rem;
   }
 }
 
@@ -113,7 +126,8 @@ const props = defineProps({
 }
 
 .stream-info {
-  padding: 1.5rem;
+  padding: 1.25rem;
+  width: 100%;
 }
 
 .stream-title {

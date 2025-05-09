@@ -86,14 +86,17 @@ onBeforeUnmount(() => {
 .stream-grid {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 2rem;
+  grid-template-columns: 1fr;
+  max-width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
   position: relative;
 }
 
 @media (min-width: 640px) {
   .stream-grid {
     grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
   }
 }
 
