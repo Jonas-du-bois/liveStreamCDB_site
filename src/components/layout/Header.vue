@@ -4,7 +4,7 @@
             <div class="header-content flex justify-between items-center py-2 px-4 sm:px-6"> 
                 <div class="logo flex items-center gap-2">
                     <router-link to="/" class="flex items-center gap-2 no-underline">
-                        <img src="../../assets/logo.png" alt="Logo" class="w-1 h-1" />
+                        <img src="../../assets/logoCDB.png" alt="Logo" class="w-1 h-1" />
                     </router-link>
                 </div>
                 
