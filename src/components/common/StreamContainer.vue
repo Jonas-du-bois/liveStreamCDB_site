@@ -40,7 +40,7 @@ const props = defineProps({
 
 <style scoped>
 .stream-card {
-  background-color: var(--surface);
+  background-color: #0f172a;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

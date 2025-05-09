@@ -18,9 +18,9 @@
 
 <style scoped>
 .footer {
-    background-color: var(--surface);
+    background: linear-gradient(88deg, var(--surface) -2.43%, #0A1144 60.6%, var(--surface) 104.58%);
     padding: 1.5rem 0;
-    border-top: 1px solid var(--border);
+    /* border-top: 1px solid var(--border); */
     margin-top: auto;
 }
 

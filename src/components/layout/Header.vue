@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-[var(--surface)] shadow-md sticky top-0 z-50">
+    <header class="shadow-md sticky top-0 z-50 blur-lg">
         <div class="container mx-auto px-4 sm:px-6 lg:px-12 py-4">
             <div class="header-content flex justify-between items-center py-2 px-4 sm:px-6"> 
                 <div class="logo flex items-center gap-2">
@@ -101,10 +101,11 @@ div.burger-icon {
     margin-right: 10px;
 }
 
-.header {
-    background-color: var(--surface);
-    padding: 2rem 0;
-    border-bottom: 1px solid var(--border);
+header {
+    /* background: linear-gradient(88deg, #242846 -2.43%, #0A1144 60.6%, #0018BF 104.58%); */
+    /* background-color: var(--surface); */
+    padding: 0.5rem 0;
+
 }
 .container {
     max-width: 1200px;
@@ -165,7 +166,9 @@ h1 {
 
 .mobile-menu {
     display: none;
-    background-color: var(--surface);
+    background: linear-gradient(88deg, var(--surface) -2.43%, #0A1144 60.6%, var(--surface) 104.58%);
+    border-radius: 30px;
+    /* background-color: var(--surface); */
     padding: 1rem;
 }
 
