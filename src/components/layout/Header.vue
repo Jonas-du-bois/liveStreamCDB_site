@@ -41,7 +41,7 @@
                     </router-link>
                 </nav>
 
-                <div class="date-time text-[var(--text-secondary)] text-sm px-2">
+                <div class="date-time text-[var(--text-secondary)] text-sm px-2 hidden md:block">
                     {{ currentDateTime }}
                 </div>
             </div>
