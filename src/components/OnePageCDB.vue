@@ -4,6 +4,9 @@
 
     <main class="main-content">
       <div class="container mx-auto px-6 md:px-8 lg:px-12">
+        <div class="score-button-container">
+          <AnimatedScoreButton />
+        </div>
         <div class="stream-grid">
           <StreamContainer
             v-for="(stream, index) in streams"
@@ -25,6 +28,7 @@ import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import Header from './layout/Header.vue'
 import Footer from './layout/Footer.vue'
 import StreamContainer from './common/StreamContainer.vue'
+import AnimatedScoreButton from './layout/AnimatedScoreButton.vue'
 import { streamUrls, streamDescriptions, formatDateTime, findCurrentEvent } from '../utils/streamUtils'
 
 const streams = ref(streamUrls.map((url, index) => ({
@@ -87,8 +91,8 @@ onBeforeUnmount(() => {
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr;
-  max-width: 100%;
-  padding: 1rem;
+  max-width: 110%;
+  padding: 0.1rem;
   margin: 0 auto;
   position: relative;
 }
@@ -116,6 +120,23 @@ onBeforeUnmount(() => {
   
   main {
     padding: 3rem 0;
+  }
+}
+
+.score-button-container {
+  padding: 0.5rem 0 1rem 0;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .score-button-container {
+    padding: 1.5rem 0 2.5rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .score-button-container {
+    padding: 2rem 0 3rem 0;
   }
 }
 </style>
