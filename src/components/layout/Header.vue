@@ -26,6 +26,12 @@
                         Tous les streams
                     </router-link>
                     <router-link 
+                        to="/scores"
+                        class="nav-link font-bold"
+                    >
+                        Scores Live
+                    </router-link>
+                    <router-link 
                         v-for="(stream, index) in streams" 
                         :key="index"
                         :to="'/stream/' + (index + 1)"
@@ -48,6 +54,13 @@
                     @click="closeMenu"
                 >
                     Tous les streams
+                </router-link>
+                <router-link 
+                    to="/scores"
+                    class="mobile-nav-link font-bold"
+                    @click="closeMenu"
+                >
+                    Scores Live
                 </router-link>
                 <router-link 
                     v-for="(stream, index) in streams" 

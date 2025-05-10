@@ -6,6 +6,8 @@ import { registerSW } from 'virtual:pwa-register'
 import App from './App.vue'
 import OnePageCDB from './components/OnePageCDB.vue'
 import SingleStream from './components/SingleStream.vue'
+import LiveScore from './components/liveScore.vue'
+
 
 // Enregistrement du service worker PWA
 const updateSW = registerSW({
@@ -30,6 +32,14 @@ const router = createRouter({
         {
             path: '/stream/:id',
             component: SingleStream
+        },
+        {
+            path: '/scores',
+            component: LiveScore
+        },
+        {
+            path: '/scores',
+            component: LiveScore
         }
     ]
 })
