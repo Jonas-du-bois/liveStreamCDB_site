@@ -1,4 +1,4 @@
-import scheduleData from '../data/schedule.json'
+import scheduleData from '../data/schedule_samedi.json'
 
 export const streamUrls = [
     "https://player.infomaniak.com?channel=PR99617043325684504&player=12679",
