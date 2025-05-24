@@ -4,9 +4,9 @@
 
     <main class="main-content">
       <div class="container mx-auto px-6 md:px-8 lg:px-12">
-        <div class="score-button-container">
+        <!-- <div class="score-button-container">
           <AnimatedScoreButton />
-        </div>
+        </div> -->
         <div class="stream-grid">
           <StreamContainer
             v-for="(stream, index) in streams"

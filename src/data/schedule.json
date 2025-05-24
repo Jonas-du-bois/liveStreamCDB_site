@@ -1,33 +1,33 @@
 {
   "schedule": [
     {
-      "start": "07:30",
-      "end": "10:40",
+      "start": "08:20",
+      "end": "09:25",
       "titles": [
         "Compétition - AB/SR",
-        "Compétition - CE/GK",
-        "Compétition - Sol/Boden",
-        "aucun événement"
+        "Compétition - Individuel AE",
+        "Aucun événement",
+        "Aucun événement"
       ]
     },
     {
-      "start": "10:40",
-      "end": "11:35",
+      "start": "09:26",
+      "end": "10:48",
       "titles": [
-        "Final - AB/SR",
-        "Compétition - CE/GK",
-        "Compétition - Sol/Boden",
-        "aucun événement"
+        "Final - BAS/BP",
+        "Compétition - Individuel AE",
+        "Aucun événement",
+        "Aucun événement"
       ]
     },
     {
-      "start": "11:35",
-      "end": "12:24",
+      "start": "10:49",
+      "end": "11:17",
       "titles": [
-        "aucun événement",
-        "Compétition - CE/GK",
-        "Compétition - Sol/Boden",
-        "aucun événement"
+        "Compétition - CE",
+        "Compétition - Individuel AE",
+        "Aucun événement",
+        "Aucun événement"
       ]
     },
     {

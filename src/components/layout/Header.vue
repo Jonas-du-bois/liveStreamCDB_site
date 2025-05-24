@@ -4,7 +4,7 @@
             <div class="header-content flex justify-between items-center py-2 px-4 sm:px-6"> 
                 <div class="logo flex items-center gap-2">
                     <router-link to="/" class="flex items-center gap-2 no-underline">
-                        <img src="../../assets/logo.svg" alt="Logo" class="w-1 h-1" />
+                        <img src="../../assets/logoGymPully.jpg" alt="Logo" class="w-1 h-1" />
                     </router-link>
                 </div>
                 
@@ -25,12 +25,12 @@
                     >
                         Tous les streams
                     </router-link>
-                    <router-link 
+                    <!-- <router-link 
                         to="/scores"
                         class="nav-link font-bold"
                     >
                         Scores Live
-                    </router-link>
+                    </router-link> -->
                     <router-link 
                         v-for="(stream, index) in streams" 
                         :key="index"
@@ -55,13 +55,13 @@
                 >
                     Tous les streams
                 </router-link>
-                <router-link 
+                <!-- <router-link 
                     to="/scores"
                     class="mobile-nav-link font-bold"
                     @click="closeMenu"
                 >
                     Scores Live
-                </router-link>
+                </router-link> -->
                 <router-link 
                     v-for="(stream, index) in streams" 
                     :key="index"
@@ -87,10 +87,10 @@ const props = defineProps({
 })
 
 const streams = [
-    { description: "Salle des Isles - 1" },
-    { description: "Salle des Isles - 2" },
-    { description: "Salle de Léon Michaud - 1" },
-    { description: "Salle de Léon Michaud - 2" }
+    { description: "Salle Arnold Reymond - 1" },
+    { description: "Salle Arnold Reymond - 2" },
+    { description: "Salle annexe ouest - 1" },
+    { description: "Salle annexe ouest - 2" }
 ]
 
 const isMenuOpen = ref(false)

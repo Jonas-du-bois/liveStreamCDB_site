@@ -8,10 +8,10 @@ export const streamUrls = [
 ]
 
 export const streamDescriptions = [
-    "Salle des Isles - 1",
-    "Salle des Isles - 2",
-    "Salle de Léon Michaud - 1",
-    "Salle de Léon Michaud - 2"
+    "Salle Arnold Reymond - 1",
+    "Salle Arnold Reymond - 2",
+    "Salle annexe ouest - 1" ,
+    "Salle annexe ouest - 2"
 ]
 
 export const formatDateTime = (date) => {
