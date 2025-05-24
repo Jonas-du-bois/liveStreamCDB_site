@@ -1,63 +1,131 @@
 {
-  "schedule": [
-    {
-      "start": "08:20",
-      "end": "09:25",
-      "titles": [
-        "Compétition - AB/SR",
-        "Compétition - Individuel AE",
-        "Aucun événement",
-        "Aucun événement"
+  "salles": [    {
+      "nom": "Salle Arnold Reymond - 1",
+      "planning": [
+        { "start": "08:40", "end": "08:53", "evenement": "AB Pully: Actifs" },
+        { "start": "08:53", "end": "09:06", "evenement": "AB Avenches: Actifs" },
+        { "start": "09:06", "end": "09:19", "evenement": "AB Morges: Actifs" },
+        { "start": "09:19", "end": "09:52", "evenement": "AB Vevey: Team Vevey" },
+        { "start": "09:52", "end": "10:05", "evenement": "BP Le Lieu-Vallée de Joux: Actives/Actifs" },
+        { "start": "10:05", "end": "10:18", "evenement": "BP Corsier-Corseaux: Actifs-Mixte" },
+        { "start": "10:18", "end": "10:31", "evenement": "BP Montreux: Actifs" },
+        { "start": "10:31", "end": "10:44", "evenement": "BAS Blonay: Actifs-Actives" },
+        { "start": "10:44", "end": "11:23", "evenement": "BAS Le Lieu-Vallée de Joux: Actives-Actifs" },
+        { "start": "11:23", "end": "11:36", "evenement": "CE Chavornay-La Sarraz: Actifs-Actives" },
+        { "start": "11:36", "end": "11:49", "evenement": "CE Vevey Jeunes-Patriotes: Actives" },
+        { "start": "11:49", "end": "12:02", "evenement": "CE Chernex: Actifs Mixtes" },
+        { "start": "12:02", "end": "12:15", "evenement": "CE Le Lieu-Vallée de Joux: Actives-Actifs" },
+        { "start": "12:15", "end": "12:28", "evenement": "CE Corsier-Corseaux: Actifs-Mixte" },
+        { "start": "12:28", "end": "12:41", "evenement": "CE Yverdon-les-Bains Ancienne: Actifs-Actives" },
+        { "start": "12:41", "end": "12:54", "evenement": "CE Montreux: Actifs mixtes" },
+        { "start": "12:54", "end": "13:07", "evenement": "CE Aigle-Alliance: Actifs-Actives" },
+        { "start": "13:07", "end": "13:20", "evenement": "CE Yvonand: Actifs-Actives" },
+        { "start": "13:20", "end": "13:33", "evenement": "BF Le Lieu-Vallée de Joux: Actives/actifs" },
+        { "start": "13:33", "end": "13:46", "evenement": "ST Chavornay-La Sarraz: Actifs-Actives" },
+        { "start": "13:46", "end": "13:59", "evenement": "ST Avenches: Actifs" },
+        { "start": "13:59", "end": "14:12", "evenement": "ST Yverdon Amis-Gym" },
+        { "start": "14:12", "end": "14:38", "evenement": "ST Yvonand: Actifs-Actives" },
+        { "start": "14:38", "end": "14:51", "evenement": "SO Prilly: Actives agrès" },
+        { "start": "14:51", "end": "15:04", "evenement": "SO Blonay: Actifs-Actives" },
+        { "start": "15:04", "end": "15:17", "evenement": "SO St-Prex: Actifs-Actives" },
+        { "start": "15:17", "end": "15:30", "evenement": "SO Montreux: Actifs mixtes" },
+        { "start": "15:30", "end": "15:43", "evenement": "SO Lausanne-Bourgeoise: Team Agrès Lausanne" },
+        { "start": "15:43", "end": "15:56", "evenement": "SO Payerne: Actifs Payene/Granges-Marnand" },
+        { "start": "15:56", "end": "16:09", "evenement": "SO Aigle Alliance: Actifs-Actives" },
+        { "start": "16:09", "end": "16:22", "evenement": "SO Corsier-Corseaux: Actifs-Mixte" },
+        { "start": "16:22", "end": "16:35", "evenement": "SO Yverdon Amis-Gym: Actifs-Actives" },
+        { "start": "16:35", "end": "16:48", "evenement": "SO Pully: Actifs" },
+        { "start": "16:48", "end": "17:01", "evenement": "SO Avenches: Actifs" },
+        { "start": "17:01", "end": "17:14", "evenement": "SO Vevey: Team Vevey" },
+        { "start": "17:14", "end": "17:30", "evenement": "SO Morges: Actifs" }
+      ]
+    },    {
+      "nom": "Salle Arnold Reymond - 2",
+      "planning": [
+        { "start": "08:25", "end": "08:30", "evenement": "Individuel AE Rolle: Morgane Sottile" },
+        { "start": "08:30", "end": "08:35", "evenement": "Individuel AE Aubonne: Marion Coffy" },
+        { "start": "08:35", "end": "08:46", "evenement": "Individuel AE Aubonne: Clara Sanchez" },
+        { "start": "08:46", "end": "08:59", "evenement": "Individuel AE Lausanne Amis-Gymnaste: Sarah Gaillard" },
+        { "start": "08:59", "end": "09:12", "evenement": "Individuel AE Prilly: Alba Neziri individuel" },
+        { "start": "09:12", "end": "09:28", "evenement": "Individuel AE Rolle: Serena Lombardo" },
+        { "start": "09:28", "end": "09:33", "evenement": "Individuel AE Rolle: Anaïs Minotti" },
+        { "start": "09:33", "end": "09:46", "evenement": "Individuel AE Chailly s/Montreux: Luana Antunes" },
+        { "start": "09:46", "end": "09:59", "evenement": "Individuel AE Chailly s/Montreux: Melinda Angeloni" },
+        { "start": "09:59", "end": "10:12", "evenement": "Individuel AE Chailly s/Montreux: Laetitia Guntz" },
+        { "start": "10:12", "end": "10:25", "evenement": "Individuel AE Forel-Savigny Amis-Gym: Emma Baetscher" },
+        { "start": "10:25", "end": "10:38", "evenement": "Individuel AE Bex: Beatriz Seixas" },
+        { "start": "10:38", "end": "10:51", "evenement": "Individuel AE Bex: Jenny Moreau" },
+        { "start": "10:51", "end": "11:04", "evenement": "Individuel AE Yverdon Amis-Gymnastes: Audrey Huon" },
+        { "start": "11:04", "end": "11:17", "evenement": "Team 3-5 Chailly s/Montreux: Gymnastique & Danse Actives" },
+        { "start": "11:17", "end": "12:22", "evenement": "Team 3-5 Blonay: Actifs-Actives" },
+        { "start": "12:22", "end": "12:35", "evenement": "Couple AE Yvonand: Actifs/Actives" },
+        { "start": "12:35", "end": "12:48", "evenement": "Couple AE Bex: Cora Jacquemettaz et Jenny Moreau" },
+        { "start": "12:48", "end": "13:01", "evenement": "Couple AE Bex: Sophie Aviolat et Caroline Dubois" },
+        { "start": "13:01", "end": "13:14", "evenement": "Couple AE Aubonne: Joanne Pasini et Clara Sanchez" },
+        { "start": "13:14", "end": "13:27", "evenement": "Couple AE Lucens: Gym à deux" },
+        { "start": "13:27", "end": "13:40", "evenement": "Couple AE Lausanne Amis-Gymnaste: Julie Brancato et Fiona Brancato" },
+        { "start": "13:40", "end": "13:53", "evenement": "Couple AE Lausanne-Ville: Raphaëlle Fabiano et Ivana Schwarz" },
+        { "start": "13:53", "end": "14:06", "evenement": "Couple AE Prilly: Gym à deux" },
+        { "start": "14:06", "end": "14:19", "evenement": "Couple AE Rolle: Dora Szilos-Uchmann Sienna" },
+        { "start": "14:19", "end": "14:32", "evenement": "GYSSE Morges: GD 35+" },
+        { "start": "14:32", "end": "14:45", "evenement": "GYSSE Lucens: Gym danse 35+" },
+        { "start": "14:45", "end": "14:58", "evenement": "GYSSE Montreux: 35+" },
+        { "start": "14:58", "end": "15:11", "evenement": "GYSSE Prilly: Actives gymnastique et dance" },
+        { "start": "15:11", "end": "15:24", "evenement": "GYSSE Morges: GD Actives" },
+        { "start": "15:24", "end": "15:37", "evenement": "GYSSE Lausanne Amis-Gymnastes: G-Dance" },
+        { "start": "15:37", "end": "15:50", "evenement": "GYSSE Bex: Actives" },
+        { "start": "15:50", "end": "16:03", "evenement": "GYSSE Rolle: Actives" },
+        { "start": "16:03", "end": "16:16", "evenement": "GYSSE Ecublens: Alldance 3" },
+        { "start": "16:16", "end": "16:29", "evenement": "GYSSE Forel Savigny: Actifs-Actives Amis-Gym Forel-Savigny" },
+        { "start": "16:29", "end": "16:42", "evenement": "GYSSE Le Mont: Gym & Danse actives" },
+        { "start": "16:42", "end": "16:55", "evenement": "GYSSE Lucens: Actives" },
+        { "start": "16:55", "end": "17:08", "evenement": "GYSSE Aubonne: Actives Gym & Danse-sans engin" },
+        { "start": "17:08", "end": "17:30", "evenement": "GYSSE Cossonay: Gym-Danse Actives" }
       ]
     },
     {
-      "start": "09:26",
-      "end": "10:48",
-      "titles": [
-        "Final - BAS/BP",
-        "Compétition - Individuel AE",
-        "Aucun événement",
-        "Aucun événement"
+      "nom": "Collège Annexe-Ouest - Salle 1",
+      "planning": [
+        { "start": "13:15", "end": "13:20", "evenement": "Individuel SE Bex: Beatriz Seixas" },
+        { "start": "13:20", "end": "13:25", "evenement": "Individuel SE Bex: Jenny Moreau" },
+        { "start": "13:25", "end": "13:30", "evenement": "Individuel SE Bex: Cora Jacquemettaz" },
+        { "start": "13:30", "end": "13:35", "evenement": "Individuel SE Le Mont s/Lausanne: Sonia Becker" },
+        { "start": "13:35", "end": "13:40", "evenement": "Individuel SE Chailly s/Montreux: Audrey Boudaillez" },
+        { "start": "13:40", "end": "13:45", "evenement": "Individuel SE Chailly s/Montreux: Milly Berthoud" },
+        { "start": "13:45", "end": "13:50", "evenement": "Individuel SE Chailly s/Montreux: Estelle Gétaz" },
+        { "start": "13:50", "end": "13:55", "evenement": "Individuel SE Chailly s/Montreux: Luana Antunes" },
+        { "start": "13:55", "end": "14:10", "evenement": "Individuel SE Vallorbe: Roxane Zwahlen" },
+        { "start": "14:10", "end": "14:15", "evenement": "Couple SE Ecublens: Muriel Mühlethaler et Jessica Rullo" },
+        { "start": "14:15", "end": "14:20", "evenement": "Couple SE Lausanne Amis-Gymnastes: Louna Bouhlila et Carla Antunes" },
+        { "start": "14:20", "end": "14:25", "evenement": "Couple SE Lausanne Amis-Gymnastes: Julie Brancato et Fiona Brancato" },
+        { "start": "14:25", "end": "14:30", "evenement": "Couple SE Bex: Cora Jacquemettaz et Jenny Moreau" },
+        { "start": "14:30", "end": "14:35", "evenement": "Couple SE Cossonay: Naomi Regazzoni et Fanny Reber" },
+        { "start": "14:35", "end": "14:40", "evenement": "Couple SE Cossonay: Aline Ramuz et Charlotte Kury" },
+        { "start": "14:40", "end": "14:45", "evenement": "Couple SE Bex: Sophie Aviolat et Caroline Dubois" },
+        { "start": "14:45", "end": "14:50", "evenement": "Couple SE Lucens: Gym à deux" },
+        { "start": "14:50", "end": "14:55", "evenement": "Couple SE Le Mont s/Lausanne: Lisa Napach et Sonia Becker" },
+        { "start": "14:55", "end": "15:00", "evenement": "Couple SE Vallorbe: Jenny Audemars et Daphné Etienne" },
+        { "start": "15:00", "end": "15:05", "evenement": "Couple SE Ecublens: Zahraa Bounoun et Jessica Schläfli" },
+        { "start": "15:05", "end": "15:14", "evenement": "Couple SE Ecublens: Erine Rüttimann et Lily Cassano" },
+        { "start": "15:14", "end": "15:21", "evenement": "GYSAE Lausanne Amis-Gymnastes: Gym Toujours" },
+        { "start": "15:21", "end": "15:28", "evenement": "GYSAE Yverdon Amis Gymnastes: Gym Actives 35+" },
+        { "start": "15:28", "end": "15:35", "evenement": "GYSAE Lucens: Actives" },
+        { "start": "15:35", "end": "15:42", "evenement": "GYSAE Cossonay: Gym-Danse Actives" },
+        { "start": "15:42", "end": "15:49", "evenement": "GYSAE Rolle: Gymnastique Actives" },
+        { "start": "15:49", "end": "15:56", "evenement": "GYSAE Aubonne: Actives Gym & Danse - avec engin" },
+        { "start": "15:56", "end": "16:03", "evenement": "GYSAE Echallens: Gym danse actives" },
+        { "start": "16:03", "end": "16:10", "evenement": "GYSAE Vallorbe: Gym-danse actives" },
+        { "start": "16:10", "end": "16:17", "evenement": "GYSAE Morges: GD Actives" },
+        { "start": "16:17", "end": "16:24", "evenement": "GYSAE Lausanne Amis-Gymnastes: G-Dance" },
+        { "start": "16:24", "end": "16:31", "evenement": "GYSAE Prilly: Actives gymnastique et dance" },
+        { "start": "16:31", "end": "16:38", "evenement": "GYSAE Lausanne-Ville: GD Actives" },
+        { "start": "16:38", "end": "17:30", "evenement": "GYSAE Bex: Actives" }
       ]
     },
     {
-      "start": "10:49",
-      "end": "11:17",
-      "titles": [
-        "Compétition - CE",
-        "Compétition - Individuel AE",
-        "Aucun événement",
-        "Aucun événement"
-      ]
-    },
-    {
-      "start": "12:31",
-      "end": "15:26",
-      "titles": [
-        "Compétition - Saut/Sprung",
-        "Compétition - BAS/BP",
-        "Compétition - Sol/Boden",
-        "Compétition - GYSE"
-      ]
-    },
-    {
-      "start": "15:26",
-      "end": "17:16",
-      "titles": [
-        "Compétition - GYAE",
-        "compétition - BF",
-        "Compétition - Sol/Boden",
-        "Compétition - GYSE"
-      ]
-    },
-    {
-      "start": "22:00",
-      "end": "07:00",
-      "titles": [
-        "Streaming - Isles 1",
-        "Streaming - Isles 2",
-        "Streaming - Isles 3",
-        "Streaming - Léon Michaud"
+      "nom": "Collège Annexe-Ouest - Salle 2",
+      "planning": [
+        { "start": "00:00", "end": "00:00", "evenement": "" }        
       ]
     }
   ]

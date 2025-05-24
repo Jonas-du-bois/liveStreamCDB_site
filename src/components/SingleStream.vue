@@ -41,9 +41,9 @@ let timer
 const currentDateTime = computed(() => formatDateTime(currentTime.value))
 
 const updateStreamTitle = () => {
-    const currentEvent = findCurrentEvent(currentTime.value)
-    if (currentEvent && currentEvent.titles[streamId.value]) {
-        stream.value.currentTitle = currentEvent.titles[streamId.value]
+    const currentEvent = findCurrentEvent(currentTime.value, streamId.value)
+    if (currentEvent && currentEvent.evenement) {
+        stream.value.currentTitle = currentEvent.evenement
     } else {
         stream.value.currentTitle = "Aucun événement en cours"
     }
